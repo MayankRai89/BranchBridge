@@ -6,7 +6,7 @@
 
 ## 🚀 Live Site
 
-👉 [Visit BranchBridge](https://branchbridge.vercel.app) *(update with your actual link)*
+👉 [Visit BranchBridge](https://branchbridge.vercel.app) *( https://branch-bridge.vercel.app/k)*
 
 ---
 
