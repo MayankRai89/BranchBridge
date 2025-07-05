@@ -1,0 +1,50 @@
+.branch-detail {
+  padding: 3rem;
+  background-color: #0f1b28;
+  color: white;
+  min-height: 100vh;
+}
+
+.branch-detail h1 {
+  font-size: 2.5rem;
+  color: #00e6e6;
+}
+
+.branch-detail h3 {
+  margin-top: 2rem;
+  color: #00e6e6;
+}
+
+.branch-detail ul {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.branch-detail li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+.sub-branch-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.sub-card {
+  background-color: #1f2a38;
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #00e6e6;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 230, 230, 0.15);
+}
+
+.sub-card:hover {
+  background-color: #00e6e6;
+  color: #000;
+  transform: scale(1.05);
+}

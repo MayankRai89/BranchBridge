@@ -1,0 +1,27 @@
+/* src/components/BranchCard.css */
+.branch-card {
+  background: #1f2a38;
+  color: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  width: 280px;
+  box-shadow: 0 5px 15px #00e6e61a;
+  transition: transform 0.1s ease-out;
+}
+
+.branch-card h3 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.branch-card p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.card-icon {
+  font-size: 5rem;
+  color: #00e6e6;
+}

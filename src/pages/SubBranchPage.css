@@ -1,0 +1,44 @@
+.sub-branch-page {
+  padding: 3rem;
+  color: white;
+  background-color: #0f1b28;
+  min-height: 100vh;
+}
+
+.sub-branch-page h1 {
+  color: #00e6e6;
+  font-size: 2.2rem;
+}
+
+.sub-branch-page h3 {
+  margin-top: 2rem;
+  color: #00e6e6;
+}
+
+.sub-branch-page ul {
+  margin-top: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.sub-branch-page li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.timeline-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 3px solid #00e6e6;
+  padding-left: 1rem;
+}
+
+.timeline-step {
+  background-color: #1f2a38;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  color: #00e6e6;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 230, 230, 0.15);
+}

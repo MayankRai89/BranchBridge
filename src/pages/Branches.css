@@ -1,0 +1,47 @@
+/* src/pages/Branches.css */
+.branches-section {
+  background: #0f1b28;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.branches-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00e6e6;
+}
+
+.branches-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.description {
+  background-color: #1a2734;
+  padding: 2rem 2.5rem;
+  border-radius: 15px;
+  margin: 2rem auto;
+  color: #e0f7ff;
+  max-width: 1000px;
+  box-shadow: 0 4px 12px rgba(0, 230, 230, 0.1);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-family: 'Segoe UI', sans-serif;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.description h2 {
+  font-weight: 400;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
